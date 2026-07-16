@@ -1,3 +1,8 @@
+---
+name: biomedical-paper-card
+description: 将用户提供的生物医学论文系统解析为结构化 Biomedical Paper Card。适用于用户上传论文 PDF、全文、Figure、图注或部分正文，并要求基于原始论文进行证据导向、逐图、机制和研究价值分析的场景。
+
+
 # Biomedical Paper Card
 
 ## 1. Purpose
@@ -77,11 +82,7 @@ Phenomenon → Association → Mechanism → Perturbation → Functional consequ
 
 用不超过 4 条列出论文最重要的结论。每条结论尽可能附对应 Figure 或实验，并区分 Direct evidence、Authors' interpretation 和 Further inference。
 
-### 2. One-sentence Take-home Message
-
-用 1–3 句话回答：**这篇论文真正发现了什么？** 避免简单复制摘要。
-
-### 3. Scientific Background
+### 2. Scientific Background
 
 简要说明：
 
@@ -91,7 +92,7 @@ Phenomenon → Association → Mechanism → Perturbation → Functional consequ
 - 论文出现之前的 knowledge gap；
 - 为什么这个问题值得研究。
 
-### 4. Core Scientific Question
+### 3. Core Scientific Question
 
 使用以下格式：
 
@@ -99,7 +100,7 @@ Phenomenon → Association → Mechanism → Perturbation → Functional consequ
 
 随后用中文解释。若存在多个层级，区分 Primary question 和 Secondary questions。
 
-### 5. Central Hypothesis
+### 4. Central Hypothesis
 
 总结作者明确或隐含的假说，优先写成：
 
@@ -107,7 +108,7 @@ Phenomenon → Association → Mechanism → Perturbation → Functional consequ
 
 若论文主要是 atlas/resource study，没有明确机制假说，说明其属于 discovery-driven / atlas-building study。
 
-### 6. Study Design
+### 5. Study Design
 
 说明：
 
@@ -133,7 +134,7 @@ Mechanistic validation
 Functional validation
 ```
 
-### 7. Figure-by-Figure Storyline
+### 6. Figure-by-Figure Storyline
 
 对每张主 Figure 分别使用以下结构：
 
@@ -151,7 +152,7 @@ Functional validation
 
 若 Supplementary Figure 或 Extended Data 对核心结论不可或缺，也应纳入。
 
-### 8. Overall Storyline
+### 7. Overall Storyline
 
 将 Figures 串联成完整故事线，优先使用：
 
@@ -173,7 +174,7 @@ In vivo / clinical validation
 
 回答：作者如何一步一步说服读者接受核心结论？
 
-### 9. Key Findings
+### 8. Key Findings
 
 总结 3–7 个最重要发现。每个 Finding 包含：
 
@@ -182,7 +183,7 @@ In vivo / clinical validation
 - **Strength of evidence：** Strong / Moderate / Suggestive；
 - 必要时说明该结论的边界。
 
-### 10. Mechanistic Model
+### 9. Mechanistic Model
 
 如果论文提出机制，构建机制模型，例如：
 
@@ -204,7 +205,7 @@ Disease progression
 - 只有相关性证据的环节；
 - 作者提出但尚未验证的环节。
 
-### 11. Cell States / Cellular Ecosystem
+### 10. Cell States / Cellular Ecosystem
 
 仅在论文涉及 single-cell、spatial transcriptomics 或 tumor ecosystem 时加入：
 
@@ -212,7 +213,7 @@ Disease progression
 - **Marker genes：** 对应 marker genes；
 - **Cellular interactions：** 有直接证据的细胞互作与仅由计算推断的互作。
 
-### 12. Key Technologies
+### 11. Key Technologies
 
 总结主要技术，并分别说明：
 
@@ -220,7 +221,7 @@ Disease progression
 - **Strength：** 解决了什么问题；
 - **Limitation：** 不能证明什么。
 
-### 13. Weakest Link
+### 12. Weakest Link
 
 指出证据链中最薄弱的环节，并说明原因。可考虑：
 
@@ -233,7 +234,7 @@ Disease progression
 - 动物模型与人类疾病存在差异；
 - 关键机制缺少直接干预。
 
-### 14. Major Limitations
+### 13. Major Limitations
 
 从以下维度独立评价，不要简单重复 Discussion 中作者自己列出的 limitations：
 
@@ -243,7 +244,7 @@ Disease progression
 - **Model limitations**；
 - **Clinical translation limitations**。
 
-### 15. Novelty
+### 14. Novelty
 
 回答：**这篇论文相比此前研究真正新增了什么？**
 
@@ -256,7 +257,7 @@ Disease progression
 
 并判断创新程度：Incremental、Moderate、Substantial 或 Field-changing，同时给出理由。
 
-### 16. Implications for the Field
+### 15. Implications for the Field
 
 分析研究可能如何改变领域认知，例如：
 
@@ -268,7 +269,7 @@ Disease progression
 
 明确区分论文直接结论与对领域的进一步推断。
 
-### 17. Implications for My Research
+### 16. Implications for My Research
 
 默认从以下方向思考，但不得脱离论文证据：
 
@@ -294,7 +295,7 @@ Disease progression
 
 重点说明如何把论文中的方法或发现转化为新的研究问题，而不是泛泛地说“值得进一步研究”。
 
-### 18. Reusable Data / Resources
+### 17. Reusable Data / Resources
 
 判断论文是否公开以下资源：
 
@@ -314,7 +315,7 @@ Disease progression
 
 若论文未报告，写“Not reported”或“论文中未明确说明”。
 
-### 19. Knowledge Base Tags
+### 18. Knowledge Base Tags
 
 最后生成适合 Obsidian 的 tags。Tags 可以直接使用英文或常用缩写，不要求翻译成中文，例如：
 
