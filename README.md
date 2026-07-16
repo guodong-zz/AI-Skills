@@ -30,7 +30,6 @@ Biomedical Paper Card 是一个用于系统化解析生物医学论文的 AI Ski
 - Mechanistic model
 - Cell populations and marker genes
 - Key technologies
-- Strongest evidence
 - Weakest link
 - Overinterpretation check
 - Major limitations
