@@ -39,6 +39,8 @@ Restrictions:
 - No borders.
 - No grid lines.
 
+Use the same character from the provided reference image and previous approved sprite strips.
+
 2.Action Modifier（每次替换）
 
 Row 0 — Idle
